@@ -1,5 +1,2 @@
 # BusQuei
-
-Projeto criado em conjunto com companheiroos de sala utilizando html, css, BootStrap.
-
-link: https://busquei.vercel.app/
+Site para visualização de rotas e paradas de ônibus na cidade de saquarema.

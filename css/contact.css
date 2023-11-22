@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(white, #4ace8e2c);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+form {
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  animation: aparecer 1s forwards;
+}
+
+.container {
+  margin-top: 33px;
+  text-align: center;
+}
+
+
+@keyframes aparecer {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+h2 img {
+  margin-right: 10px;
+  width: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

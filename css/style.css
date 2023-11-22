@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background: linear-gradient(white, #4ace8e2c);
+    overflow-x: hidden;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4ACE8F;
+}
+li:hover{
+    border-bottom: 0px solid #00CEDD;
+}
+
+.logo{
+    width: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+.logo1{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    flex-shrink: 0;
+    background: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    color: rgb(233, 6, 6);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    right: 80px;
+}
+
+
+.nav-list li {
+    padding: 25px;
+}
+
+
+
+.busquei{
+    color: #4ACE8F;
+    font-family: Berkshire Swash;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 200px;
+    margin-left: 130px;
+}
+
+.text-busquei{
+    color: #000;
+    font-family: Gudea;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 130px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    animation: aparecer 1s forwards;
+}
+
+.img-edit{
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 700px;
+}
+
+.container-sobre{
+    background-color: #F5F5F5;
+    width: 985px;
+    height: 453px;
+    flex-shrink: 0;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 300px;
+}
+
+.h1-tex{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.icons-sobre{
+    margin-top: 100px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.img{
+    width: 100px;
+}
+.img:hover{ 
+    transform: scale(1.1) ;
+    transition: ease 0.5s;
+}
+
+.tex-clas{
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.footer{
+    margin-top: 300px;
+    width: 100vw;
+    height: 190px;
+    background-color: #F3F3F3;
+    display: flex;
+}
+
+
+.news{
+    margin-left: 70px;
+    margin-top: 40px;
+    
+}
+
+.div-ft{
+    margin-left: 30px;
+}
+
+.top-menu{
+    padding-right: 70px;
+}
+
+.links{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.endereco{
+    margin-top: 30px;
+}
+.texto{
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+
+.redessociais{
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 500px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.redes-hover:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.fix{
+    margin-left: 150px;
+}
+
+footer{
+    margin-top: auto;
+}
+
+@keyframes aparecer {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+  }

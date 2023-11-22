@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: linear-gradient(white, #4ace8e2c);
+}
+
+
+
+
+.h1{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.container-project {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    position: relative; /* A posição relativa é necessária para que o z-index funcione */
+    z-index: 1;
+    
+  }
+.teste{
+  animation: aparecer 1s forwards;
+}
+
+.imagem {
+    margin-right: 30px; 
+  }
+
+.text-project{
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 150px;
+    text-align: justify;
+}
+
+.tracking{
+    display: flex;
+    margin-left: 700px;
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    z-index: 2;
+}
+
+.h12{
+  margin-top: 500px;
+  text-align: center;
+}
+.h14{
+  text-align: center;
+}
+
+.benef1{
+  margin-top: 100px;
+  margin-left: 200px;
+  
+}
+
+.info{
+  margin-left: 10px;
+}
+
+.tex1{
+  width: 500px;
+  margin-right: 50px;
+  position: absolute;
+  left: 150px;
+}
+
+.benef2{
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 380px;
+  left: 500px;
+  top: 1200px;
+}
+
+.info2{
+  margin-left: 40px;
+}
+
+.tex12{
+  width: 500px;
+  margin-right: 200px;
+  position: absolute;
+  left: -20px;
+}
+
+.benef3{
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 400px;
+  left: 500px;
+  top: 1200px;
+}
+
+.info3{
+  margin-left: 40px;
+}
+
+.tex13{
+  width: 500px;
+  margin-right: 200px;
+  position: absolute;
+  left: -20px;
+}
+
+.benef4{
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 0px;
+  left: 150px;
+  top: 1200px;
+}
+
+.img4{
+  position: absolute;
+  margin-top: 50px;
+}
+.img1{
+  
+}
+.img2{
+  position: absolute;
+  margin-top: 50px;
+}
+
+.img3{
+  position: absolute;
+  margin-top: 50px;
+}
+
+.info4{
+  margin-left: 100px;
+}
+
+.tex14{
+  width: 500px;
+  margin-right: 200px;
+  position: absolute;
+  left: 10px;
+}
+
+.completo{
+  margin-bottom: 1150px;
+}
+
+.funcionalidades{
+  margin: auto;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.habilidades{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 150px;
+  margin: auto;
+  width: 1300px;
+  height: 450px;
+  margin-top: 40px;
+}
+
+.teste3{
+  width: 220px;
+}
+.teste4{
+  width: 220px;
+}
+.teste5{
+  width: 220px;
+}
+.teste6{
+  width: 220px;
+}
+
+
+
+
+
+
+
+
+
+
